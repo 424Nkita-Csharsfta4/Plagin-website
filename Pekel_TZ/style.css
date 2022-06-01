@@ -1,35 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300&display=swap");
 body {
   font-family: 'Lato', sans-serif;
-  background: linear-gradient(-45deg, #EE3C7E, #E73C7E, #23A6D5, #23D5AB);
-  background-size: 400% 400%;
-  position: relative;
-  -webkit-animation: change 10s ease-in-out infinite;
-          animation: change 10s ease-in-out infinite;
-}
-
-@-webkit-keyframes change {
-  0% {
-    background-position: 0 25%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
-}
-
-@keyframes change {
-  0% {
-    background-position: 0 25%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
 }
 
 .section-about-inf {
@@ -119,42 +90,8 @@ body {
   }
 }
 
-.section-card {
-  font-family: Arial, Helvetica, sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.section-card .description-card {
-  background-color: #fff;
-  border-radius: 10px;
-  border: 1px solid #131313;
-  width: 35%;
-  margin-bottom: 1rem;
-}
-
-.section-card .id {
-  color: #fff;
-  background-color: #131313;
-  border-radius: 10px;
-  padding-left: 2px;
-  font-size: 15px;
-  margin-left: 10px;
-}
-
-.section-card .name {
-  color: #5d0bc9;
+.posts {
+  background: #131313;
 }
 
 p {

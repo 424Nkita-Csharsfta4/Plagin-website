@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300&display=swap');
 body{
     font-family: 'Lato', sans-serif;
-
 }
 
 .section-about-inf{
@@ -64,30 +63,9 @@ body{
         padding-left: 25rem;
     }
 }
-.section-card{
-    font-family:Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .description-card{
-        background-color: #fff;
-        border-radius: 10px;
-        border: 1px solid #131313;
-        width: 35%;
-        margin-bottom: 1rem;
-    }
-    .id{
-        color: #fff;
-        background-color: #131313;
-        border-radius: 10px;
-        padding-left: 2px;
-        font-size: 15px;
-        margin-left: 10px;
-    }
-    .name{
-        color: #5d0bc9;
-    }
+
+.posts{
+    background: #131313;
 }
 p{
     font-weight: 700;
