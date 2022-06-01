@@ -157,6 +157,10 @@ body {
   color: #5d0bc9;
 }
 
+p {
+  font-weight: 700;
+}
+
 a {
   text-decoration: none;
 }
